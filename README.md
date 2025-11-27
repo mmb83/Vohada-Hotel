@@ -1,6 +1,6 @@
-# Vohada-Hotel
-
 ## جدول تغییرات گام اول
+
+<div dir="rtl" align="right">
 
 <table>
   <tr>
@@ -15,17 +15,33 @@
     <th>توضیح کوتاه در مورد تغییر</th>
   </tr>
   <tr>
-    <td>۱</td>
+    <td>1</td>
     <td>Message Sender</td>
-    <td>افزودن یک تابع برای ارسال پیامک به نام <code>SendSmsMessage</code></td>
+    <td>افزودن یک تابع برای ارسال پیامک به نام <code>SendSms</code></td>
     <td>Payment Processor</td>
-    <td>افزودن یک تابع برای پرداخت حضوری به نام <code>OnSitePayment</code></td>
+    <td>افزودن یک تابع برای پرداخت حضوری به نام <code>PayOnSite</code></td>
   </tr>
   <tr>
-    <td>...</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>2</td>
+    <td>EmailSender </td>
+    <td>پیاده سازی تابع <code>SendSms</code>    (با بدنه خالی)</td>
+    <td>Reservation
+    Service</td>
+    <td>اضافه کردن یک شرط برای انتخاب روش پرداخت حضوری</td>
+  </tr>
+  <tr>
+  <th></th>
+  <th>کلاس اضافه شده</th>
+    <th>توضیح کوتاه در مورد تغییر</th>
+    <th>------------</th>
+    <th>-----------------</th>
+    </tr>
+  <td>3</td>                                                            
+  <td>SMSSender</td>
+  <td>کلاسی جهت ارسال پیام از طریق SMS</td>
+  <td></td>
+  <td></td>
   </tr>
 </table>
+
+</div>
