@@ -1,7 +1,9 @@
 package services;
+import models.Customer;
+import java.util.ArrayList;
 
 public class CityDiscount{
-    private Cities<String>;  
+    private ArrayList<String> Cities ;   
     public double CheckCityDiscount(Customer customer){
         if(customer.getCity().equals("Paris")){
             System.out.println("Apply city discount for Paris!");

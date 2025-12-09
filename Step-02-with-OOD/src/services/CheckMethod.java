@@ -1,5 +1,6 @@
 package services;
-import MessageSender;
+import constants.Notifier;
+import services.MessageSender;
 public class CheckMethod{
     private Notifier notifier;
     public CheckMethod(Notifier notifier){
