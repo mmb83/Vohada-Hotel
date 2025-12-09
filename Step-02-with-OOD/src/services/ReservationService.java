@@ -10,10 +10,7 @@ public class ReservationService {
     public void makeReservation(Reservation res, PaymentMethods paymentType, Notifier notifier){
         System.out.println("Processing reservation for " + res.customer.name);
 
-        if(res.customer.city.equals("Paris")){
-            System.out.println("Apply city discount for Paris!");
-            res.room.price *= 0.9;
-        }
+        res.room.price *= new CityDiscount().CheckCityDiscount(res.customer); // must Fix this
 
         switch (paymentType){
             case CARD:
