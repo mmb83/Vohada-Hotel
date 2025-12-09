@@ -6,5 +6,5 @@ class PaymentProcessor {
     {
         this.method=method;
     }
-    public void payByCard(double amount){ System.out.println("Paid by "+this.method.name()+": "+amount); }
+    public void pay(double amount){ System.out.println("Paid by "+this.method.name()+": "+amount); }
 }
